@@ -6,11 +6,22 @@ html, body {
 }
 
 .main-content {
-    background-image: url("../assets/backgrounds/Background-Effect.png");
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.main-content_wrapper {
+    margin-top: -5.5%;
+    transform: skewY(-6deg);
+    background-color: black;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    backdrop-filter: blur(100px);
+    border: 1px none;
     width: 100%;
     height: 100%;
 }
