@@ -17,11 +17,44 @@ html, body {
 .main-content_wrapper {
     margin-top: -5.5%;
     transform: skewY(-6deg);
-    background-color: black;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border: 1px none;
     width: 100%;
     height: 100%;
+}
+
+.main-content-background::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(238, 20, 12, 0.7);
+    backdrop-filter: blur(100px);
+
+}
+
+
+.main-content-purple::after{
+    content: '';
+    position: absolute;
+    left: 75.49%;
+    right: -3.68%;
+    top: -4.92%;
+    bottom: 50.92%;
+    background: #8C30F5;
+    opacity: 0.6;
+    
+}
+
+.main-content_wrapper::before{
+    content: '';
+    position: absolute;
+    left: 48.54%;
+    right: 39.79%;
+    top: 56.38%;
+    bottom: 21.28%;
+    background: #2EC5CE;
+    opacity: 0.6;
+    filter: blur(100px);
 }
