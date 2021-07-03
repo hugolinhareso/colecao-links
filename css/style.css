@@ -48,6 +48,9 @@ html, body {
     background: #8C30F5;
     opacity: 0.6;
     border-radius: 1000px;
+    width: 406px;
+    height: 406px;
+    z-index: 2;
 }
 
 .main-content_circles::before {
