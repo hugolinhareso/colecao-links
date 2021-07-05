@@ -6,39 +6,42 @@ html, body {
 }
 
 .main-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.background-filter-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    z-index: -1;
 }
 
-.main-content_wrapper {
-    margin-top: -5.5%;
-    transform: skewY(-6deg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 1px none;
-    width: 100%;
-    height: 100%;
-}
-
-.main-content_background {
+.background-filter-backdrop {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
     height: 100%;
-    margin-top: -5.5%;
-    transform: skewY(-6deg);
+    width: 100%;
     background-color: rgba(242, 247, 255, 0.7);
-    backdrop-filter: blur(100px);
+    backdrop-filter: blur(40px);
     z-index: 1;
 }
 
-.main-content_circles::after {
+.background-filter-skew {
+    width: 100%;
+    height: 100%;
+    transform: skewY(-6deg);
+    margin-top: -5.3%;
+}
+
+.background-filter-circles {
+    z-index: -1;
+}
+
+.background-filter-circles::after {
     content: '';
     position: absolute;
     left: 75.49%;
@@ -47,13 +50,12 @@ html, body {
     bottom: 50.92%;
     background: #8C30F5;
     opacity: 0.6;
-    border-radius: 1000px;
-    width: 406px;
-    height: 406px;
-    z-index: 2;
+    width: 28vw;
+    height: 28vw;
+    border-radius: 50%;
 }
 
-.main-content_circles::before {
+.background-filter-circles::before {
     content: '';
     position: absolute;
     left: 48.54%;
@@ -62,5 +64,7 @@ html, body {
     bottom: 21.28%;
     background: #2EC5CE;
     opacity: 0.6;
-    border-radius: 1000px;
+    width: 12vw;
+    height: 12vw;
+    border-radius: 50%;
 }
