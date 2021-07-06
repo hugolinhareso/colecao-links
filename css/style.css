@@ -3,6 +3,7 @@ html, body {
     width: 100%;
     margin: 0;
     padding: 0;
+    font-family: "Inter";
 }
 
 .main-content {
@@ -26,6 +27,15 @@ ul, li {
     list-style: none;
 }
 
-.buttons-lists{
-    
+.buttons-list{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.button-base{
+    height: 40px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
 }
