@@ -23,6 +23,10 @@ html, body {
     height: 72px;
 }
 
+.top-menu .background-filter-circles::after {
+    top: -50%;
+}
+
 ul, li {
     list-style: none;
 }
@@ -31,11 +35,22 @@ ul, li {
     display: flex;
     flex-direction: row;
     gap: 10px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 165px;
 }
 
 .button-base{
-    height: 40px;
     padding: 10px 20px;
     font-size: 14px;
     font-weight: 500;
+}
+
+.button-base:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.button-base:active {
+    background-color: rgba(0, 0, 0, 0.05);
 }
