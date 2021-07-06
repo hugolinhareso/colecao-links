@@ -24,7 +24,18 @@ html, body {
 }
 
 .top-menu .background-filter-circles::after {
-    top: -50%;
+    height: 38.87px;
+    width: 385.14px;
+
+}
+
+.top-menu .background-filter-circles::before{
+    height: 16.09px;
+    width: 159.37px;
+}
+
+.top-menu .background-filter-content{
+    height: 100%;
 }
 
 ul, li {
@@ -53,4 +64,13 @@ ul, li {
 
 .button-base:active {
     background-color: rgba(0, 0, 0, 0.05);
+}
+
+.button-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 254px;
+    margin-right: 165px;
 }
