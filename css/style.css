@@ -11,60 +11,21 @@ html, body {
     height: 100%;
 }
 
-.background-filter-content {
-    position: absolute;
-    top: 0;
-    left: 0;
+.top-menu{
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+    position: fixed;
     width: 100%;
-    height: 100%;
-    overflow: hidden;
-    z-index: -1;
+    height: 72px;
 }
 
-.background-filter-backdrop {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(242, 247, 255, 0.7);
-    backdrop-filter: blur(40px);
-    z-index: 1;
+ul, li {
+    list-style: none;
 }
 
-.background-filter-skew {
-    width: 100%;
-    height: 100%;
-    transform: skewY(-6deg);
-    margin-top: -5.3%;
-}
-
-.background-filter-circles {
-    z-index: -1;
-}
-
-.background-filter-circles::after {
-    content: '';
-    position: absolute;
-    left: 75.49%;
-    right: -3.68%;
-    top: -4.92%;
-    bottom: 50.92%;
-    background: #8C30F5;
-    opacity: 0.6;
-    width: 28vw;
-    height: 28vw;
-    border-radius: 50%;
-}
-
-.background-filter-circles::before {
-    content: '';
-    position: absolute;
-    left: 48.54%;
-    right: 39.79%;
-    top: 56.38%;
-    bottom: 21.28%;
-    background: #2EC5CE;
-    opacity: 0.6;
-    width: 12vw;
-    height: 12vw;
-    border-radius: 50%;
+.buttons-lists{
+    
 }
