@@ -1,0 +1,24 @@
+.top-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 72px;
+}
+
+.top-menu .background-filter-circles::after {
+    height: 38.87px;
+    width: 385.14px;
+}
+
+.top-menu .background-filter-circles::before{
+    height: 16.09px;
+    width: 159.37px;
+}
+
+.top-menu .background-filter-content{
+    height: 100%;
+}

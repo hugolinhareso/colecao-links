@@ -1,0 +1,58 @@
+.buttons-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 16px;
+    padding-bottom: 16px;
+    margin-left: 8.59vw;
+    overflow: hidden;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-height: 37px;
+}
+
+.buttons-list .button-base {
+    margin-bottom: 100px;
+}
+
+.button-base {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    min-width: fit-content;
+}
+
+.button-base:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.button-base:active {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.button-search-container{
+    display: flex;
+    align-items: center;
+    margin-right: 8.59vw;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-radius: 6px;
+    gap: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    white-space: nowrap;
+    
+    
+}
+
+.button-search-container:active {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.button-search{
+    font-weight: 500;
+    font-size: 14px;
+    color: #18191F;
+    
+}
