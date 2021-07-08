@@ -11,6 +11,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    gap: 167px;
     font-feature-settings: 'salt' on, 'liga' off;
     padding-top: 72px;
     height: calc(100vh - 72px);
@@ -24,4 +26,14 @@
     font-size: 72px;
     list-style: 98px;
     color: #18191F;
+}
+
+.brands-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    width: 100%;
+    padding: 24px 20.59px;
+    border-top: 1px solid black;
 }
