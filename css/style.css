@@ -2,19 +2,27 @@
     position: relative;
     width: 100%;
     height: 100%;
-    
 }
 
-.link-section{
+.link-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 479px;
+}
+
+.link-section-title {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.link-section-title{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.link-section-title h1 {
+    font-weight: 800;
+    font-size: 48px !important;
+    line-height: 64px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
 }

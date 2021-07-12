@@ -3,18 +3,18 @@
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
-    gap: 167px;
+    gap: 25vh;
     font-feature-settings: 'salt' on, 'liga' off;
-    padding-top: 72px;
-    height: calc(100vh - 72px);
+    padding-top: 25vh;
     padding-left: 8.59vw;
     padding-right: 8.59vw;
 }
 
 .title-pag-one-text{
     display: flex;
+    gap: 8px;
     font-weight: 800;
     font-size: 72px;
     list-style: 98px;
@@ -27,7 +27,7 @@
     justify-content: center;
     gap: 64px;
     width: 100%;
-    padding: 24px 20.59px;
+    padding: 40px 20px;
     position: relative;
 }
 
