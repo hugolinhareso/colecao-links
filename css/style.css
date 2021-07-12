@@ -26,3 +26,23 @@
     font-feature-settings: 'salt' on, 'liga' off;
     color: #18191F;
 }
+
+.link-section-title p{
+    font-size: 18px;
+    line-height: 32px;
+    padding: 8px;
+    color: #18191F;
+}
+
+.link-section-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+    margin-top: 75px  ;
+}
+
+.link-button {
+    height: 100px;
+    padding: 0px 35px;
+}
