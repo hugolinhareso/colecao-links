@@ -45,4 +45,17 @@
 .link-button {
     height: 100px;
     padding: 0px 35px;
+    background: #F4F5F7;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #18191F;
+    font-size: 28px;
+    font-feature-settings: 'salt' on, 'liga' off;
+}
+
+.link-button:hover {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.03)), #F4F5F7;
 }

@@ -48,3 +48,7 @@ p {
     margin-inline-start: unset;
     margin-inline-end: unset;
 }
+
+a {
+    text-decoration: none;
+}
