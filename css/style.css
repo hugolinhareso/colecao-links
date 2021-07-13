@@ -59,3 +59,23 @@
 .link-button:hover {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.03)), #F4F5F7;
 }
+
+.link-button:active {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), #F4F5F7;
+}
+
+.link-section.cyan-section {
+    background-color: #DEFBFD;
+}
+
+.link-button.white-button {
+    background: #FFFFFF;
+}
+
+.link-button.white-button:hover {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.03)), #FFFFFF;
+}
+
+.link-button.white-button:active {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), #FFFFFF;
+}

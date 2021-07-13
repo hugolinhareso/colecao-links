@@ -1,0 +1,90 @@
+A melhor coleção de links de HTML e CSS da Galaxia
+  W3S: https://www.w3schools.com/html/
+  Mozilla HTML: https://developer.mozilla.org/en-US/
+  CSS Tricks: https://css-tricks.com/
+  Tableless: 
+https://tableless.com.br/
+
+Sites Geradores de código
+  Transform: https://makingcss.com/transform
+  Animation: https://animista.net/play/basic/rotate-scale/rotate-scale-down-ver
+  Box shadow: https://makingcss.com/box-shadow
+  Gradient: https://makingcss.com/gradient 
+  Grid Generator: https://cssgrid-generator.netlify.app/
+
+Tags HTML
+  - W3S: https://www.w3schools.com/TAGS/default.ASP
+
+Seletores CSS
+  - W3S: https://www.w3schools.com/cssref/css_selectors.asp
+  - Tabless: https://tableless.com.br/referencia-seletores-css/
+  - CSS Tricks https://css-tricks.com/almanac/selectors/
+  - Mozilla: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
+
+Position
+  - W3S: https://www.w3schools.com/css/css_positioning.asp
+  - Mozilla: https://developer.mozilla.org/en-US/docs/Web/CSS/position
+  - CSS Tricks: https://css-tricks.com/almanac/properties/p/position/
+
+Display flex
+  - Origamid: https://origamid.com/projetos/flexbox-guia-completo/
+  - Jogo Flex froggy: https://flexboxfroggy.com/
+
+Display grid
+  - Origamid: https://www.origamid.com/projetos/css-grid-layout-guia-completo/
+  - Jogo grid garden: https://cssgridgarden.com/
+
+Width & Height
+  - CSS Tricks: https://css-tricks.com/almanac/properties/w/width/
+  - Mozilla: https://developer.mozilla.org/pt-BR/docs/Web/CSS/height
+
+Margin
+  - Mozilla: https://developer.mozilla.org/en-US/docs/Web/CSS/margin
+  - CSS Tricks: https://css-tricks.com/almanac/properties/m/margin/
+
+padding
+  - Mozilla: https://developer.mozilla.org/en-US/docs/Web/CSS/padding
+  - CSS Tricks: https://css-tricks.com/almanac/properties/p/padding/
+
+Background
+  - Mozilla: https://developer.mozilla.org/en-US/docs/Web/CSS/background
+  - W3S: https://www.w3schools.com/css/css_background.asp
+  - CSS Tricks: https://css-tricks.com/almanac/properties/b/background/
+
+Importação da Font
+  Mozilla: https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face
+  CSS Tricks: https://css-tricks.com/the-best-font-loading-strategies-and-how-to-execute-them/
+
+Propriedades CSS da font
+  - Mozilla: https://developer.mozilla.org/en-US/docs/Web/CSS/font
+  - CSS Tricks: https://css-tricks.com/almanac/properties/f/font/
+
+Border
+  - Mozilla: https://developer.mozilla.org/en-US/docs/Web/CSS/border
+  - CSS Tricks: https://css-tricks.com/almanac/properties/b/border/
+  - W3S: https://www.w3schools.com/css/css_border.asp
+
+Border Radius:
+  - Mozilla: https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius
+  - CSS Tricks: https://css-tricks.com/almanac/properties/b/border-radius/
+  - W3S: https://www.w3schools.com/cssref/css3_pr_border-radius.asp
+
+Box Shadow:
+  - Mozilla: https://css-tricks.com/almanac/properties/b/box-shadow/
+  - CSS Tricks: https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
+  - W3S: https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
+
+Transform
+  - Mozilla: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+  - CSS Tricks: https://css-tricks.com/almanac/properties/t/transform/
+  - W3S: https://www.w3schools.com/cssref/css3_pr_transform.asp
+
+Transition
+  - W3S: https://www.w3schools.com/css/css3_transitions.asp
+  - Mozilla: https://developer.mozilla.org/en-US/docs/Web/CSS/transition
+  - CSS Tricks: https://css-tricks.com/almanac/properties/t/transition/
+
+Animations
+  - Mozilla: https://developer.mozilla.org/en-US/docs/Web/CSS/animation
+  - W3S: https://www.w3schools.com/css/css3_animations.asp
+  - CSS Tricks: https://css-tricks.com/almanac/properties/a/animation/
