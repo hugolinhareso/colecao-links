@@ -79,3 +79,7 @@
 .link-button.white-button:active {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), #FFFFFF;
 }
+
+.pink-section {
+    background: #FFE6F7
+}
