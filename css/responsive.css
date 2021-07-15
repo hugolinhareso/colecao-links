@@ -1,0 +1,44 @@
+@media (max-width: 500px) {
+
+    .top-menu {
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .button-search-container {
+        margin: unset !important;
+    }
+
+    .buttons-list {
+        display: none;
+    }
+
+    .brands-list {
+        flex-direction: column !important;
+    }
+
+    .link-section-buttons {
+        flex-direction: column !important;
+    }
+
+    .title-pag-one-text {
+        font-size: 40px !important;
+    }
+
+    .link-section-title h1 {
+        font-size: 28px !important;
+        line-height: normal;
+    }
+
+    .link-section-title p {
+        font-size: 18px !important;
+    }
+
+    .link-section {
+        width: calc(100%-50px) !important;
+        height: fit-content !important;
+        padding: 40px 50px;
+    }
+}
