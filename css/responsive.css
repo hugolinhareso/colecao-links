@@ -8,7 +8,7 @@
     }
 
     .button-search-container {
-        margin: unset !important;
+        margin: unset ;
     }
 
     .buttons-list {
@@ -16,29 +16,42 @@
     }
 
     .brands-list {
-        flex-direction: column !important;
+        flex-direction: column ;
     }
 
     .link-section-buttons {
-        flex-direction: column !important;
+        flex-direction: column ;
     }
 
     .title-pag-one-text {
-        font-size: 40px !important;
+        font-size: 40px ;
     }
 
     .link-section-title h1 {
-        font-size: 28px !important;
+        font-size: 28px ;
         line-height: normal;
+        text-align: center;
     }
 
     .link-section-title p {
-        font-size: 18px !important;
+        font-size: 18px ;
     }
 
     .link-section {
-        width: calc(100%-50px) !important;
-        height: fit-content !important;
-        padding: 40px 50px;
+        width: calc(100%-50px) ;
+        height: fit-content ;
+        padding: 75px 40px;
+        
     }
+
+    .escolinha-dudu{
+        flex-direction: column;
+        
+    }
+
+    .link-button {
+        width: 320px;
+        height: 100px;
+    }
+
 }
