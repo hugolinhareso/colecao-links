@@ -1,0 +1,22 @@
+.menu-search{
+    display: flex;
+    position:fixed;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(40px);
+    z-index: 100;
+}
+
+.search-box{
+    height: 400px;
+    width: 1306px;
+    left: 30px;
+    top: 30px;
+    border-radius: 0px;
+
+}
+
+.input-search{
