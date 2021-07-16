@@ -8,7 +8,13 @@
     }
 
     .button-search-container {
-        margin: unset ;
+        margin-right: unset;
+        width: 320 px;
+        margin: 16px;
+    }
+
+    .button-search{
+        width: 245px;
     }
 
     .buttons-list {
@@ -17,6 +23,7 @@
 
     .brands-list {
         flex-direction: column ;
+        gap: 76px;
     }
 
     .link-section-buttons {
@@ -52,6 +59,16 @@
     .link-button {
         width: 320px;
         height: 100px;
+    }
+
+    .background-filter-skew {
+        transform: skewY(-22deg);
+        height: 75%;
+        margin-top: -14%;
+    }
+
+    .title-pag-one{
+        gap: 87px;
     }
 
 }
