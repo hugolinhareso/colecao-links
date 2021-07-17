@@ -1,4 +1,4 @@
-@media (max-width: 500px) {
+@media (max-width: 1150px) {
 
     .top-menu {
         width: 100vw;
@@ -27,6 +27,7 @@
 
     .link-section-buttons {
         flex-direction: column;
+        width: 100%;
     }
 
     .title-pag-one-text {
@@ -46,7 +47,7 @@
     .link-section {
         height: fit-content;
         padding: 75px 40px;
-        
+        flex: 1;
     }
 
     .escolinha-dudu{
@@ -54,13 +55,12 @@
     }
 
     .link-button {
-        width: 100%;
+        width: calc(100% - 90px);
         height: 100px;
-        
     }
 
     .profiles-section {
-        width: 90%;
+        width: 100%;
     }
 
     .background-filter-skew {
@@ -73,4 +73,21 @@
         gap: 87px;
     }
 
+    /* SEARCH MENU */
+    .search-box {
+        height: calc(100vh - 60px);
+        width: calc(100vw - 60px);
+    }
+
+    .search-box-input {
+        max-height: calc(80px - 15px * 2);
+    }
+
+    .options-wrapper {
+        flex-direction: column;
+        padding: 30px;
+        gap: 20px;
+        overflow: auto;
+    }
+    /* SEARCH MENU */
 }
