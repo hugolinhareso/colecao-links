@@ -18,7 +18,7 @@
     <title>Coleção de Links</title>
 </head>
 
-<body class="">
+<body id="mainWrapper" class="--search-menu-is-open">
     <header class="top-menu">
         <div class="background-filter-content">
             <div class="background-filter-backdrop"></div>
@@ -31,7 +31,7 @@
             <li class="button-base">Seletores CSS</li>
             <li class="button-base">Transforms</li>
         </ul>
-        <div class="button-search-container">
+        <div class="button-search-container" id="buttonOpenSearchBox">
             <span class="button-search">Pesquisar entre os tópicos</span>
             <img src="./assets/icons/Search Icon.svg">
         </div>
@@ -325,11 +325,12 @@
                             class="profile-image">Welson Júnior</a>
                 </div>
             </div>
-            <div class="escolinha-dudu"><span>© 2021 Escolinha de DEV do Dudu.</span> <span>Todos os direitos reservados</span></div>
+            <div class="escolinha-dudu"><span>© 2021 Escolinha de DEV do Dudu.</span> <span>Todos os direitos
+                    reservados</span></div>
         </div>
     </div>
     <div class="menu-search">
-        <div class="search-box">
+        <div class="search-box" id="searchBox">
             <div class="background-filter-content">
                 <div class="background-filter-backdrop"></div>
                 <div class="background-filter-circles"></div>
@@ -339,7 +340,7 @@
                     <input class="input-search" type="text" placeholder="Pesquisar entre os tópicos">
                     <img class="input-search-icon" src="./assets/icons/Search Icon.svg">
                 </div>
-                <div class="button-base close-button">
+                <div class="button-base close-button" id="buttonCloseSearchBox">
                     <img src="./assets/icons/CloseIcon.svg">
                 </div>
             </div>
@@ -376,5 +377,14 @@
         </div>
     </div>
 </body>
+<!-- JS IMPORTS -->
+<!-- ELEMENTS -->
+<script src="./javascript/searchMenu/elements.js"></script>
+<script src="./javascript/general/elements.js"></script>
+<!-- METHODS -->
+<script src="./javascript/searchMenu/methods.js"></script>
+<!-- EVENT LISTENERS -->
+<script src="./javascript/searchMenu/eventListeners.js"></script>
+<!-- JS IMPORTS -->
 
 </html>
