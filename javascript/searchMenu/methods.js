@@ -24,6 +24,9 @@ const searchBoxIsOpenFn = () => {
 const scrollToSection = (key) => {
   if (typeof key === 'string') {
     const element = document.getElementById(key);
-    console.log('key: ', key, '\nelement:', element);
+
+    if (element.scrollIntoView) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
   }
 }
