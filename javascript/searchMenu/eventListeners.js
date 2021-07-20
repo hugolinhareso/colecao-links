@@ -1,4 +1,4 @@
-document.addEventListener('click', function(event) {
+document.addEventListener('click', function (event) {
   const clickInsideButtonOpenSearchBox = buttonOpenSearchBox.contains(event.target);
   const clickInsideButtonCloseSearchBox = buttonCloseSearchBox.contains(event.target);
   const clickOutsideSearchBox = !searchBox.contains(event.target);
@@ -14,5 +14,16 @@ document.addEventListener('click', function(event) {
 
   if (clickOutsideSearchBox && searchBoxIsOpen) {
     closeSearchBoxFn();
+  }
+
+  if (elementsWithScrollToArray) {
+    elementsWithScrollToArray.forEach((elementWithScroll) => {
+      const scrollToKey = elementWithScroll?.dataset?.scrollToKey;
+      const clickInsideElementWithScroll = elementWithScroll.contains(event.target);
+
+      if (scrollToKey && clickInsideElementWithScroll) {
+        scrollToSection(scrollToKey);
+      }
+    });
   }
 });

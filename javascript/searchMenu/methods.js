@@ -20,3 +20,10 @@ const searchBoxIsOpenFn = () => {
 
   return searchBoxIsOpen;
 }
+
+const scrollToSection = (key) => {
+  if (typeof key === 'string') {
+    const element = document.getElementById(key);
+    console.log('key: ', key, '\nelement:', element);
+  }
+}
