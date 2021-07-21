@@ -1,0 +1,78 @@
+[
+  {
+    "title": "Sites geradores de código",
+    "scrollToKey": "sectionCodeGenerator"
+  },
+  {
+    "title": "Tags HTML",
+    "scrollToKey": "sectionTagsHTML"
+  },
+  {
+    "title": "Seletores CSS",
+    "scrollToKey": "sectionCSSSelectors"
+  },
+  {
+    "title": "Position",
+    "scrollToKey": "sectionPosition"
+  },
+  {
+    "title": "Display flex",
+    "scrollToKey": "sectionDisplayFlex"
+  },
+  {
+    "title": "Display grid",
+    "scrollToKey": "sectionDisplayGrid"
+  },
+  {
+    "title": "Width & Height",
+    "scrollToKey": "sectionWidthAndHeight"
+  },
+  {
+    "title": "Margin",
+    "scrollToKey": "sectionMargin"
+  },
+  {
+    "title": "Padding",
+    "scrollToKey": "sectionPadding"
+  },
+  {
+    "title": "Background",
+    "scrollToKey": "sectionBackground"
+  },
+  {
+    "title": "Importação de font",
+    "scrollToKey": "sectionFontImportation"
+  },
+  {
+    "title": "Propriedades CSS da font",
+    "scrollToKey": "sectionFontProperties"
+  },
+  {
+    "title": "Border Shadow",
+    "scrollToKey": "sectionBorderShadow"
+  },
+  {
+    "title": "Border Radius",
+    "scrollToKey": "sectionBorderRadius"
+  },
+  {
+    "title": "Transform",
+    "scrollToKey": "sectionTransform"
+  },
+  {
+    "title": "Transition",
+    "scrollToKey": "sectionTransition"
+  },
+  {
+    "title": "Animations",
+    "scrollToKey": "sectionAnimations"
+  },
+  {
+    "title": "Media Query",
+    "scrollToKey": "sectionMediaQuery"
+  },
+  {
+    "title": "Criado por",
+    "scrollToKey": "sectionCreatedBy"
+  }
+]
