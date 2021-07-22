@@ -5,4 +5,5 @@ const optionsSectionOne = document.getElementById('optionsSectionOne');
 const optionsSectionTwo = document.getElementById('optionsSectionTwo');
 const optionsSectionThree = document.getElementById('optionsSectionThree');
 const optionsSectionFour = document.getElementById('optionsSectionFour');
+const searchInput = document.getElementById('searchInput');
 const elementsWithScrollToArray = document.querySelectorAll('[data-scroll-to-key]');

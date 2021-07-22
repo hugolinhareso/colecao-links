@@ -1,6 +1,7 @@
 const openSearchBoxFn = () => {
   if (mainWrapper) {
     mainWrapper.className = '--search-menu-is-open';
+    searchInput.focus();
   }
 }
 
@@ -31,6 +32,13 @@ const scrollToSection = (key) => {
   }
 }
 
+const onClickSearchOption = (key) => {
+  if (typeof key === 'string') {
+    closeSearchBoxFn();
+    scrollToSection(key);
+  }
+}
+
 const addSearchOptionInSectionHTML = (elementToInsertOption, option) => {
   const {
     title,
@@ -42,7 +50,7 @@ const addSearchOptionInSectionHTML = (elementToInsertOption, option) => {
     typeof title === 'string' &&
     typeof scrollToKey === 'string'
   ) {
-    elementToInsertOption.innerHTML += `<li data-scroll-to-key="${scrollToKey}" class="option button-base">${title}</li>`;
+    elementToInsertOption.innerHTML += `<li onclick="onClickSearchOption('${scrollToKey}')" class="option button-base">${title}</li>`;
   }
 }
 
@@ -100,4 +108,9 @@ const renderSearchOptions = (searchText) => {
       });
     });
 }
-renderSearchOptions('grid');
+renderSearchOptions();
+
+const onChangeSearchValue = () => {
+  const searchString = searchInput.value;
+  renderSearchOptions(searchString);
+}
