@@ -15,11 +15,12 @@
     <link rel="stylesheet" href="./css/linksection.css">
     <link rel="stylesheet" href="./css/menusearch.css">
     <link rel="stylesheet" href="./css/responsive.css"> -->
+    <link rel="stylesheet" href="./css/animations.css">
     <link rel="stylesheet" href="./css/minified.css">
     <title>Coleção de Links</title>
 </head>
 
-<body id="mainWrapper" class="">
+<body id="mainWrapper" class="main">
     <header class="top-menu">
         <div class="background-filter-content">
             <div class="background-filter-backdrop"></div>
@@ -82,8 +83,8 @@
                         class="link-button white-button"><img src="./assets/brandsImage/w3schools.svg"></a>
                 </div>
             </div>
-            <div class="link-section" id="sectionCSSSelectors">
-                <div class="link-section-title">
+            <div class="link-section anime-start" id="sectionCSSSelectors">
+                <div data-anime-order="1" data-anime-type="up" class="anime link-section-title">
                     <h1>Seletores CSS</h1>
                     <p>Links abaixo</p>
                 </div>
@@ -326,7 +327,8 @@
                             class="profile-image">Welson Júnior</a>
                 </div>
             </div>
-            <div class="escolinha-dudu"><span>© 2021 Escolinha de DEV do Dudu.</span> <span>Todos os direitos reservados</span></div>
+            <div class="escolinha-dudu"><span>© 2021 Escolinha de DEV do Dudu.</span> <span>Todos os direitos
+                    reservados</span></div>
         </div>
     </div>
     <div class="menu-search">
@@ -337,7 +339,8 @@
             </div>
             <div class="search-box-input">
                 <div class="input-search-box">
-                    <input class="input-search" id="searchInput" onkeyup="onChangeSearchValue()" type="text" placeholder="Pesquisar entre os tópicos">
+                    <input class="input-search" id="searchInput" onkeyup="onChangeSearchValue()" type="text"
+                        placeholder="Pesquisar entre os tópicos">
                     <img class="input-search-icon" src="./assets/icons/Search Icon.svg">
                 </div>
                 <div class="button-base close-button" id="buttonCloseSearchBox">
@@ -355,12 +358,10 @@
 </body>
 
 <!-- JS IMPORTS -->
-<!-- ELEMENTS -->
-<script src="./javascript/searchMenu/elements.js"></script>
-<script src="./javascript/general/elements.js"></script>
-<!-- METHODS -->
-<script src="./javascript/searchMenu/methods.js"></script>
-<!-- EVENT LISTENERS -->
-<script src="./javascript/searchMenu/eventListeners.js"></script>
-<!-- JS IMPORTS -->
+<script src="./javascript/elements.js"></script>
+<script src="./javascript/methods.js"></script>
+<script src="./javascript/eventListeners.js"></script>
+<script src="./javascript/plugins/jquery.js"></script>
+<script src="./javascript/plugins/animations.js"></script>
+
 </html>
