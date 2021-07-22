@@ -1,14 +1,8 @@
 /** Animation 2.0 */
 
-//Primeira animação
-function first_animation() {
-  regular_animation_start();
-}
-
-//Animações de entrada dos itens
 function regular_animation_start() {
   loading_animations();
-  //Executa animação conforme scroll a tela
+
   if ($('.anime-start').length != 0) {
     $(window).scroll(function () {
       if ($('.anime-start').length != 0) {
@@ -17,7 +11,6 @@ function regular_animation_start() {
         var anime_position = (anime_start.offset().top + anime_start.height() / 2);
 
         if (window_position > anime_position) {
-          //Executa animação
           do_animation(anime_start);
         }
       }
@@ -112,4 +105,4 @@ function doSetTimeout(arr, time) {
   }, time);
 }
 
-first_animation();
+regular_animation_start();
