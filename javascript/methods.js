@@ -22,13 +22,19 @@ const searchBoxIsOpenFn = () => {
   return searchBoxIsOpen;
 }
 
+const scrollElementIntoView = (element, behavior) => {
+  let scrollTop = window.pageYOffset || element.scrollTop;
+  const finalOffset = element.getBoundingClientRect().top + scrollTop - (element.clientHeight / 2);
+  window.parent.scrollTo({
+    top: finalOffset,
+    behavior: behavior || 'auto'
+  });
+}
+
 const scrollToSection = (key) => {
   if (typeof key === 'string') {
     const element = document.getElementById(key);
-
-    if (element.scrollIntoView) {
-      element.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }
+    scrollElementIntoView(element, 'smooth');
   }
 }
 
