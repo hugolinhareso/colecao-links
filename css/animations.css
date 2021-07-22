@@ -1,0 +1,43 @@
+  
+.anime{ transition: 1s !important}
+
+.anime[data-anime-type='opacity']{ 
+    opacity: 0.05!important; 
+    filter: saturate(0);
+}
+
+.anime[data-anime-type='up']{
+    filter: saturate(0);
+    opacity: 0.05!important;
+    transform: translateY(50px)!important;   
+}
+
+.anime[data-anime-type='high-up']{
+    filter: saturate(0);
+    opacity: 0.05!important;
+    transform: translateY(100%)!important;   
+}
+
+.anime[data-anime-type='down']{
+    filter: saturate(0);
+    opacity: 0.05!important;
+    transform: translateY(-50px)!important; 
+}
+
+.anime[data-anime-type='high-down']{
+    filter: saturate(0);
+    opacity: 0.00!important;
+    transform: translateY(-50px)!important; 
+}
+
+.anime[data-anime-type='right']{
+    filter: saturate(0);
+    opacity: 0.05!important;
+    transform: translateX(-50px)!important;
+}
+
+.anime[data-anime-type='left']{
+    filter: saturate(0);
+    opacity: 0.05!important;
+    transform: translateX(50px)!important;     
+}
