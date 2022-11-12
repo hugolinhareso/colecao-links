@@ -1,20 +1,30 @@
-# Coleção-Links
+# colecao-links
 
-Site com uma coleção de links dos principais portais que abordam HTML e CSS. Desenvolvido em Coding Dojo para aplicar os principais conceitos de HTML, CSS e Javascript (Vanilla). 
-Nesse projeto pudemos abordar desde a contrução do protótipo no Figma até a lógica usada na barra de busca.
+Site with a collection of links from the main portals that deal with HTML and CSS. Developed in Coding Dojo to apply the main HTML, CSS and Javascript (Vanilla) concepts. 
+In this project we could approach from the construction of the prototype in Figma to the logic used in the search bar.
 
-## 💻 Acesse o site
-Veja como ficou o resultado final: [clique aqui](https://bestcsslinks.com)
+## 🚀 Usage
 
-## 🛠️ Construído com
+Just open the file `index.html` in your browser.
 
-* HTML
-* CSS
-* Javascript (Vanilla)
+## 💻 Preview
 
-## ✒️ Autores
+See how the final result looks like: [bestcsslinks.com](https://bestcsslinks.com)
 
-* **Hugo Linhares** - [GitHub](https://github.com/hugolinhareso/)
-* **Lucas Ramos** - [GitHub](https://github.com/Ram0s-bit)
-* **Eduardo Pinheiro** - [GitHub](https://github.com/eduardo-pinheiro)
-* **Welson Júnior** - [GitHub](https://github.com/welsonjnr)
+## 🧑‍💻 Authors
+
+**Hugo Linhares**
+
+- Github: [@hugolinhareso](https://github.com/hugolinhareso)
+
+**Lucas Ramos**
+
+- Github: [@Ram0s-bit](https://github.com/Ram0s-bit)
+
+**Eduardo Pinheiro**
+
+- Github: [@eduardo-pinheiro](https://github.com/eduardo-pinheiro)
+
+**Welson Júnior**
+
+- Github: [@welsonjnr](https://github.com/welsonjnr)
